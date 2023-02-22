@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos.css">
+    <title>Proyecto Final CV Natalia Gonnet</title>
+
+</head>
+
+<body>
+    <!--Sección Inicio-->
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+            <header>
+                <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav id="nav" class="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobremi">Sobre mi</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#resumen">Resumen</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+                <div class="logo">
+                    N<span class="color">G</span>
+                </div>
+            </header>
+
+            <div class="info">
+                <h1>NATALIA CATALINA GONNET</h1>
+                <h2>LIC. EN OBSTETRICIA - DOCENTE UNIVERSITARIA - DESARROLLO WEB -</h2>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="foto">
+                <img src="imgs/foto_cv.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion sobre mi-->
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Sobre Mi</h2>
+            <h3>Detalles Personales</h3>
+
+            <p class="especial">Me dedico a la Obstetricia y a la creación de nuevas ideas mediante el Desarrollo Full
+                Stack
+            </p>
+            <p>Mi principal tarea es el control y atención del Trabajo de Parto, Parto y Puerperio de la mujer gestante.
+                Además me gusta aprender constantemente, actualmente me dedico a producir ideas creativas a traves del
+                Desarrollo Full Stack</p>
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="titulo-detalle">Perfil</span>
+                    <p>Mi tarea es el control y atención del Trabajo de Parto, Parto y Puerperio de la mujer gestante.
+                        Además me gusta aprender y actualmente me dedico a producir ideas creativas a traves del
+                        Desarrollo Full
+                        Stack</p>
+                </div>
+
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="titulo-detalle">Ubicación</span>
+                    <p>Colón - Entre Ríos - Argentina</p>
+                </div>
+
+                <div class="col">
+                    <i class="fa-solid fa-flag"></i>
+                    <span class="titulo-detalle">Intereses</span>
+                    <p>Me encanta leer libros y aprender cosas nuevas, me intereso no solo por la rama de la Ciencia
+                        sino que también me atrae la teconología.
+                        Disfruto de salir a caminar con mis perros, salir con mis amigos y familia, realizar actividad
+                        física diaria como por ejemplo Crossfit, de ver películas y series en Netflix o cualquier
+                        plataforma.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Actividades-->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Mis habilidades</h2>
+            <h3>Me especializo en</h3>
+
+            <div class="filaBarras">
+                <div>
+                    <div class="col">
+                        <span>HTML/CSS</span>
+                        <div class="contBarra">
+                            <div class="barra" id="html">
+                            </div>
+                            <span>98%</span>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <span>JAVASCRIPT</span>
+                        <div class="contBarra">
+                            <div class="barra" id="javascript">
+                                <!--Con javascript luego generamos las barras-->
+                            </div>
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="col">
+                        <span>PAQUETE OFFICE</span>
+                        <div class="contBarra">
+                            <div class="barra" id="PaqueteOffice">
+                                <!--Con javascript luego generamos las barras-->
+                            </div>
+                            <span>97%</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <span>HISTORIA CLÍNICA ELECTRÓNICA</span>
+                        <div class="contBarra">
+                            <div class="barra" id="HistoriaClinicaElectronica">
+                            </div>
+                            <span>99%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Resumen -->
+    <section class="resumen" id="resumen">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Resumen</h2>
+            <h3>Mi preparación y Experiencia laboral</h3>
+            <div class="col">
+                <span class="titulo">Educación</span>
+                <table>
+                    <tr>
+                        <td class="datos">
+                            <h3>2012-2017</h3>
+                        </td>
+                        <td rowspan="2" class="descripcion">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <h4>Licenciada en Obstetricia</h4>
+                            <p>Universidad Nacional de Entre Ríos</p>
+                            <span class="promedio">Promedio: 7.3</span>
+                        </td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td class="datos">
+                            <h3>2022-2023</h3>
+                        </td>
+                        <td rowspan="2" class="descripcion">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <h4>Desarrollo Full Stack</h4>
+                            <p>Argentina Programa 4.0</p>
+                            <span class="promedio">Promedio: 6.5</span>
+                        </td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td class="datos">
+                            <h3>2022</h3>
+                        </td>
+                        <td rowspan="2" class="descripcion">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Javascript Moderno</h4>
+                            <p>Plataforma Udemy</p>
+                            <span class="promedio">Promedio: 7</span>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="col">
+                <span class="titulo">Experiencia Laboral</span>
+                <table>
+                    <tr>
+                        <td class="datos">
+                            <h3>2017 a 2021</h3>
+                        </td>
+                        <td rowspan="2" class="descripcion">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Hospital J. J. de Urquiza</h4>
+                            <p>Lic. en Obstetricia</p>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td class="datos">
+                            <h3>2020 a 2023</h3>
+                        </td>
+                        <td rowspan="2" class="descripcion">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Hospital San Benjamín</h4>
+                            <p>Lic. en Obstetricia</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Seccion Contacto-->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <h3>Contáctame enseguida!</h3>
+        </div>
+
+        <div class="fila">
+            <div class="col">
+                <h2>
+                    <i class="fa-solid fa-phone"></i> Teléfono
+                </h2>
+                <span class="info-contacto">3447-466312</span>
+            </div>
+            <div class="col">
+                <h2>
+                    <i class="fa-solid fa-envelope"></i> Correo Electrónico
+                </h2>
+                <span class="info-contacto">natigonnet@gmail.com</span>
+            </div>
+            <div class="col">
+                <h2>
+                    <i class="fa-solid fa-globe"></i> Página Web
+                </h2>
+                <span class="info-contacto">nataliagonnet.com.ar</span>
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
